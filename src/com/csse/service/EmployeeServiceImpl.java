@@ -1,18 +1,23 @@
-package com.csse.service;
 
+/*
+ * CSSE 2023
+ * 
+ * @author It21004322,It21004636,It21003332,IT21008146
+ * @version 1.0
+ * Copyright: SLIIT, All rights reserved 
+ * 
+ */
 
+ package com.csse.service;
 import org.xml.sax.SAXException;
-
 import com.csse.common.c3;
 import com.csse.model.Employee;
-
 import java.sql.Connection;
 import java.util.logging.Logger;
 import java.sql.DriverManager;
 import javax.xml.parsers.ParserConfigurationException;
 import java.sql.PreparedStatement;
 import javax.xml.xpath.XPathExpressionException;
-
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.logging.Level;
@@ -21,6 +26,12 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Map;
 
+/*
+ * Contract for the implementation of Employee Service
+ * @author It21004322,It21004636,It21003332,IT21008146
+ * @version 1.0
+ * 
+ */
 public class EmployeeServiceImpl1 extends AbstractService {
 
     private static Connection connection;
